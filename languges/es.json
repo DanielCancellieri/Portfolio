@@ -1,0 +1,21 @@
+{
+    "profile":{
+        "rol": "Desarrollador Front-end",
+        "Description":"Actualmente estoy estudiando para convertirme en desarrollador web, y busco constantemente aprender cosas nuevas y mejorar mi comprensión de los temas que ya conozco."
+    },
+
+    "experience":{
+        "experience-title":"Experiencia",
+        "first-job-title":"Desarrolador front-end",
+        "fist-job-dates":"Marzo 2021 - Actualmente"  
+        
+    },
+   
+
+
+    "projects":{
+        "fisrt-project-title":"App de Clima ",
+        "fisrt-project-description":"es una aplicación meteorológica que le proporciona la temperatura, la calidad del tiempo, la velocidad del viento y la humedad en tiempo real"
+
+    }
+}

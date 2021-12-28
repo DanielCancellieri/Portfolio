@@ -1,0 +1,23 @@
+{
+    "profile":{
+        "rol": "Front-end Developer",
+        "Description":"I am currently studying to become a web developer, and I am constantly looking to learn new things and improve my understanding of the subjects I already know."
+    },
+
+    "experience":{
+        "experience-title":"Experiences",
+        "first-job-title":"Front-end Developer",
+        "fist-job-dates":"March 2021 - Currently"  
+        
+    },
+    
+
+
+
+
+    "projects":{
+        "fisrt-project-title":"Weather App ",
+        "fisrt-project-description":"is weather app that provides you with real-time temperature, weather quality, wind speed and humidity"
+
+    }
+}

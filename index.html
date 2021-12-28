@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Daniel Cancellieri | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img id="toggle-icon" src="assets/icons/moon.svg" alt="moon icon" class="toggle-theme__icon">
+          <p id="toggle-text" class="thoggle-theme__text">Dark mode</p>
+        </div>
+      </div>
+      <div id="flags" class="flags">
+        <div class="flags__item" data-language="es">          
+          <img src="assets/icons/es.svg" alt="">       
+        </div>
+        <div class="flags__item" data-language="en">        
+            <img src="assets/icons/gb.svg" alt="">     
+        </div>
+      </div>
+      <div id="toggle-colors" class="colors">
+         <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+
+         <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
+
+         <div data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"></div>
+
+         <div data-color="hsl(46, 84%, 56%)" class="colors__item colors__item--orange"></div>
+     </div> 
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <!-- PROFILE CARD -->
+        <article class="card card--profile">
+        <div class="card__image-container">
+          <img src="assets/images/imagen cv.png" alt="">
+        </div>
+       <div class="card__header">
+         <h2 class="card__title">Daniel Cancellieri</h2>
+         <p class="card__subtitle" 
+            data-section="profile" 
+            data-value="rol"
+         >Front end developer</p>
+       </div>
+       <div class="card__body">
+         <div class="card__link">
+           <i class="fas fa-envelope icon"></i>
+           <a href="mailto:danielcancellieri98@gmail.com">luis.daniel.cancellieri@gmail.com</a>
+         </div>
+         <div class="card__link">
+          <i class="fas fa-phone icon"></i>
+          <a href="tel:1130734952">+54 11 3073-4952</a>
+        </div>
+        <div class="card__link">
+          <i class="fab fa-linkedin icon"></i>
+          <a href="https://www.linkedin.com/in/luis-daniel-cancellieri-a867a4206/">Daniel Cancellieri</a>
+        </div>
+        <p class="card__text" 
+           data-section="profile" 
+           data-value="Description">
+          I am currently studying to become a web developer, and I am constantly looking to learn new things and improve my understanding of the subjects I already know.
+        </p>
+       </div>
+      </article>
+      <article class=" card card--experience">
+        <h2 class="card__title" 
+            data-section="experience" 
+            data-value="experience-title">
+            Experiences</h2>
+        <div class="experience">
+          <div class="experience__info">
+          <p class="experience__time"
+             data-section="experience" 
+             data-value="fist-job-dates">
+            March 2021 - Current
+          </p>
+          <h3 class="experience__job" 
+              data-section="experience" 
+              data-value="first-job-title"
+          >Front end developer
+          </h3>
+          <p class="experience__description"></p>
+        </div>
+        </div>
+      </article>
+      </section>
+      <section class="column column--right">
+        <article class="card">
+          <h2 class="card__title">Front End</h2>
+          <div class="skills">
+            <div class="skills__item">
+            <i class="fab fa-html5 icon2"></i>
+            <p class="skills__tech">HTML</p>
+            <i class="fab fa-css3-alt icon3"></i>
+            <p class="skills__tech">CSS</p>
+            <i class="fab fa-js icon4"></i>
+            <p class="skills__tech">JavaScript</p>
+            <i class="fab fa-angular icon7"></i>
+            <p class="skills__tech">Angular</p>
+            <i class="fab fa-react icon8"></i>
+            <p class="skills__tech">React</p>
+             </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Back End</h2>
+          <div class="skills">
+            <div class="skills__item">
+            <i class="fas fa-database icon5"></i>
+            <p class="skills__tech">MySQL</p>
+             </div>
+          </div>
+        </article>
+          </div>
+        </article>
+      </article>
+      <artilce class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/images/Weatherapp.PNG" alt="landing page" class="card__image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#JavaScript</span>
+            <span class="project__tag">#Responsive</span>
+          </div>
+          <h2 class="class__title" 
+          data-section="projects" 
+          data-value="fisrt-project-title"
+          >Weather App
+        </h2>
+        <p class="card__text"  
+        data-section="projects" 
+        data-value="fisrt-project-description"
+        >is  weather app that provides you with real-time temperature, weather quality, wind speed and humidity</p>
+        <p class="card__text"></p>
+        <div class="buttons">
+        <a href="" class="button button--primary">Demo</a>
+        <a href="" class="button button--ghost">Code</a>
+        </div>
+        </div>
+      </artilce>
+
+      </section>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
