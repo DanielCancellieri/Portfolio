@@ -101,13 +101,13 @@ body.dark{
 }
 
 .colors__item--blue{
-    --primary-color: hsl(214, 84%, 56%);
+    --primary-color: #01c4e7;
 }
 .colors__item--green{
     --primary-color: hsl(150, 78%, 48%);
 }
 .colors__item--purple{
-    --primary-color: hsl(276, 91%, 47%);
+    --primary-color: #c501e2;
 }
 .colors__item--orange{
     --primary-color: hsl(46, 91%, 42%);
