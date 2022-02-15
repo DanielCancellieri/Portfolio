@@ -1,5 +1,5 @@
 :root{
-    --primary-color: hsl(214, 84%, 56%);
+    --primary-color: #01c4e7;
     --text-color: hsl(0, 0%, 31%);
     --bg-color:hsl(0, 0%, 90%);
     --bg-card-color: hsl(0, 0%, 98%);
@@ -75,6 +75,7 @@ body.dark{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
 }
 .flags__item{
     width: 30px;
@@ -214,6 +215,12 @@ body.dark{
     margin-left: 10px;
     margin-right: 5px;
     color: #741ac9;
+}
+.icon6{
+    margin-left: 10px;
+    margin-right: 5px;
+    color: #c7db0d;
+
 }
 
 .icon7{
